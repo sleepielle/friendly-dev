@@ -1,3 +1,4 @@
+import Hero from "~/components/Hero";
 import type { Route } from "./+types/index";
 
 export function meta({}: Route.MetaArgs) {
@@ -16,5 +17,5 @@ export default function Home() {
     console.log("cliente hydration at ", now);
   }
 
-  return <section>My app</section>;
+  return <>Homepage</>;
 }
